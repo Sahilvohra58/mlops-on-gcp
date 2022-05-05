@@ -42,7 +42,7 @@ steps:
   - 'USE_KFP_SA=$_USE_KFP_SA'
   - 'ENABLE_TUNING=$_ENABLE_TUNING'
   dir: $_PIPELINE_FOLDER
-logsBucket: 'gs://qwiklabs-gcp-00-a8854c178f26-kubeflowpipelines-default'
+logsBucket: 'gs://qwiklabs-gcp-00-a8854c178f26_cloudbuild'
 options:
   logging: GCS_ONLY
 
