@@ -43,6 +43,8 @@ steps:
   - 'ENABLE_TUNING=$_ENABLE_TUNING'
   dir: $_PIPELINE_FOLDER
   logsBucket: 'gs://logbucket-temp'
+  options:
+      logging: GCS_ONLY
 
 
 # Push the custom image to Container Registry 
