@@ -42,8 +42,9 @@ steps:
   - 'USE_KFP_SA=$_USE_KFP_SA'
   - 'ENABLE_TUNING=$_ENABLE_TUNING'
   dir: $_PIPELINE_FOLDER
+logsBucket: 'gs://logsbucket-temp'
 options:
-  logging: CLOUD_LOGGING_ONLY
+  logging: GCS_ONLY
 
 
 
